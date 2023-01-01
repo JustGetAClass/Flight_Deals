@@ -1,7 +1,9 @@
 import requests
+import os
 from flight_data import FlightData
+
 TEQUILA_ENDPOINT = "https://tequila-api.kiwi.com"
-TEQUILA_API = "uedHqCXVGdSBvIOhbodc5SEbtjjdG36C"
+TEQUILA_API = os.getenv("TEQUILA_API")
 
 
 class FlightSearch:
