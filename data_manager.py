@@ -23,4 +23,3 @@ class DataManager:
             response = requests.put(url=f"{SHEETY_ENDPOINT}/{city['id']}",
                                     json=new_data)
             print(response.text)
-
