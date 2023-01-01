@@ -1,6 +1,6 @@
 import requests
-import os
 from flight_data import FlightData
+import os
 
 TEQUILA_ENDPOINT = "https://tequila-api.kiwi.com"
 TEQUILA_API = os.getenv("TEQUILA_API")
