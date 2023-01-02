@@ -8,7 +8,7 @@ TWILIO_VIRTUAL_NUMBER = "+13393310995"
 TWILIO_VERIFIED_NUMBER = "+254722366973"
 MAIL_PROVIDER_SMTP_ADDRESS = "smtp.gmail.com"
 MY_EMAIL = "joestarjoseph025@gmail.com"
-MY_PASSWORD = "tyuhlumedhtcqnup"
+MY_PASSWORD = os.getenv("MY_PASSWORD")
 
 
 class NotificationManager:
